@@ -1,5 +1,10 @@
 ![preview](doc/preview.png)
 
+# custom_bottom_bar
+This package built for internal korlantas uses, customizing from convex_bottom_bar package.
+url : [https://pub.dev/packages/convex_bottom_bar](https://pub.dev/packages/convex_bottom_bar).
+
+
 # convex_bottom_bar
 
 [![Pub](https://img.shields.io/pub/v/convex_bottom_bar.svg)](https://pub.dartlang.org/packages/convex_bottom_bar)
