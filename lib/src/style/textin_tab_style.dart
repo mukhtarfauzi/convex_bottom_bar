@@ -33,12 +33,15 @@ class TextInTabStyle extends InnerBuilder {
               child: BlendImageIcon(
                 item.activeIcon ?? item.icon,
                 color: item.blend ? activeColor : null,
-                size: ACTION_INNER_BUTTON_SIZE,
+                size: 30,
               ),
               curve: curve,
             ),
             TransitionContainer.slide(
-              child: Text(item.title, style: TextStyle(color: activeColor)),
+              child: Padding(
+                padding: EdgeInsets.symmetric(vertical: 5.0),
+                child: Text(item.title, style: TextStyle(color: activeColor, fontSize: 11)),
+              ),
               curve: curve,
             ),
           ],
@@ -47,7 +50,8 @@ class TextInTabStyle extends InnerBuilder {
     }
 
     return Center(
-      child: BlendImageIcon(item.icon, color: item.blend ? color : null),
+      child: BlendImageIcon(item.icon, color: item.blend ? color : null, size: 30,
+      ),
     );
   }
 }
