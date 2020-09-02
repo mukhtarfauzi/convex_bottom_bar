@@ -51,8 +51,7 @@ class _RenderStack extends RenderStack {
             children: children,
             alignment: alignment,
             textDirection: textDirection,
-            fit: fit,
-            overflow: overflow);
+            fit: fit);
 
   @override
   bool hitTest(BoxHitTestResult result, {Offset position}) {
